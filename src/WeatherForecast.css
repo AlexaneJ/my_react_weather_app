@@ -1,0 +1,18 @@
+.WeatherForecast {
+    text-align: center;
+  }
+
+  .WeatherForecast-temperature-min {
+    opacity: 0.6;
+    margin-left: 5px;
+  }
+
+  .col {
+      display : inline-block;
+      line-height: 20px;
+      font-size: 18px;
+      color : #aa96da;
+      font-family: 'Courier New', monospace;
+      letter-spacing: 3px;
+      margin: 10px 10px 0px 10px;
+  }

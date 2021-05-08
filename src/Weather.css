@@ -1,0 +1,102 @@
+.Weather {
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);border-style: solid;
+    margin: 40px 150px 50px;
+    max-block-size: 50%;
+    border-color:  rgb(130, 216, 238);
+    border-radius: 25px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    display: block;
+  }
+
+  .Weather h1 {
+    text-align: center;
+    color : #6639a6;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", sans-serif;
+    letter-spacing: 0px;
+    line-height: 50px;
+    margin-bottom: -20px;
+  }
+
+  .Weather ul {
+    margin: 20px;
+    padding: 0;
+  }
+
+  .Weather li {
+    text-align: center;
+    list-style-type: none;
+    word-spacing: 22px;
+    line-height: 25px;
+    font-size: 18px;
+    color : #aa96da;
+    font-family: 'Courier New', monospace;
+    letter-spacing: -1px;
+    
+  }
+
+  .Weather .temperature{
+    font-weight: bold;
+    color: rgb(33, 33, 33);
+    font-size: 64px;
+    line-height: 64px;
+    margin-left: 5px;
+    font-weight: 400;
+    margin-left: 10px;
+  }
+
+  .Weather canvas {
+    margin: 10px auto;
+  }
+
+  .Weather .unit {
+    color: rgb(33, 33, 33);
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    line-height: 1;
+    top: -34px;
+  }
+
+  .container {
+      margin : -20px;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        color: #aa96da;
+        margin-top: -30px;
+  }
+
+
+  .form-control {
+    border-radius: 7px;
+    border-style:none;
+    border-color: #9acbe2;
+    border-width: 4px;
+    background-color: #c1fafa;
+    transition: all 200ms ease;
+    block-size: 20px;
+    text-align: left;
+  }
+
+
+  .btn {
+    border-radius: 7px;
+    border-style:none;
+    border-color: #9acbe2;
+    border-width: 4px;
+    background-color: #c1fafa;
+    transition: all 200ms ease;
+    block-size: 20px;
+    position: relative;
+    top : -21px;
+    left: 170px;
+  }
+
+  .col-6 {
+    text-align: center;
+  }
